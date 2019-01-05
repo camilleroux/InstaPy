@@ -11,11 +11,11 @@
 $ sudo apt-get update
 $ sudo apt-get -y upgrade
 $ sudo apt-get -y install unzip python3-pip python3-dev build-essential libssl-dev libffi-dev xvfb
-$ sudo pip3 install --upgrade pip
 $ export LANGUAGE=en_US.UTF-8
 $ export LANG=en_US.UTF-8
 $ export LC_ALL=en_US.UTF-8
 $ locale-gen en_US.UTF-8
+$ sudo pip3 install --upgrade pip
 $ sudo dpkg-reconfigure locales
 $ pip3 install --upgrade pip
 ```
